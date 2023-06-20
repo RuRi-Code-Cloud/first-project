@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="frame">
+      <form id="search-form">
+        <input
+          type="text"
+          placeholder="  Type a city.."
+          autocomplete="off"
+          autofocus="on"
+          id="first"
+        />
+        <input id="second" type="submit" value="Search" />
+      </form>
+      <h1>Sydney NSW, Australia</h1>
+      <h2 id="currentDate">Monday 22:22</h2>
+      <h3>Partly Cloudy</h3>
+      <img src="src/pictures/images (2).png" alt="" />
+
+      <div class="outside-numbers">
+        <span class="nineteenth" id="nine">19</span>
+        <span class="both-measures">
+          <a href="#" id="celsius">°C </a>|
+          <a href="#" id="fahrenheit">°F</a>
+        </span>
+      </div>
+      <ul class="list">
+        <li id="humidity">Humidity: 77%</li>
+        <li id="wind">Wind: 8km/h</li>
+      </ul>
+    </div>
+  </body>
+  <script src="src/index.js"></script>
+</html>
